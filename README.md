@@ -1,8 +1,6 @@
 # 🕐 Reloj Analógico Estático mediante OpenGL Clásico y Técnicas Básicas de Renderizado 2D
 
 **Laboratorio No. 1 — Informática Gráfica y Visualización**  
-**Fundación Universitaria Internacional de La Rioja**  
-**Estudiante:** Alejandro De Mendoza Tovar  
 **Profesor:** Ing. Rogerio Orlando Beltrán Castro  
 **Fecha:** 10 de mayo de 2026
 
@@ -231,6 +229,6 @@ Para cambiar la hora mostrada, modificar `HORA_H`, `HORA_M` y `HORA_S` y recompi
 ## 👨‍💻 Autor
 
 **Alejandro De Mendoza Tovar**  
-Estudiante de Ingeniería Informática — 7° Semestre  
+Ingeniería Informática  
 Fundación Universitaria Internacional de La Rioja  
 GitHub: [@AlejoTechEngineer](https://github.com/AlejoTechEngineer)
