@@ -20,6 +20,20 @@ El proyecto fue diseñado bajo un **enfoque modular**, separando cada componente
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[solution.c - Fuente principal en C] --> B[glutInit + glutCreateWindow - Ventana 600x600 px]
+    B --> C[Funcion display]
+    C --> D[Esfera del reloj - GL_TRIANGLE_FAN]
+    C --> E[Aro dorado exterior - GL_LINE_LOOP]
+    C --> F[Marcas horarias - GL_LINES - 60 marcas angulares]
+    C --> G[Manillas - GL_LINES - Horas / Minutos / Segundos]
+    D & E & F & G --> H[Motor de conversion angular - theta = pi/2 - theta_reloj]
+    H --> I[Renderizado final - Hora estatica 10:10:30]
+```
+
 ## 🖼️ Screenshot
 
 ![Reloj Analógico OpenGL](screenshot.png)
@@ -238,16 +252,3 @@ Para cambiar la hora mostrada, modificar `HORA_H`, `HORA_M` y `HORA_S` y recompi
 Ingeniería Informática  
 Fundación Universitaria Internacional de La Rioja  
 GitHub: [@AlejoTechEngineer](https://github.com/AlejoTechEngineer)
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[solution.c - Fuente principal en C] --> B[glutInit + glutCreateWindow - Ventana 600x600 px]
-    B --> C[Funcion display]
-    C --> D[Esfera del reloj - GL_TRIANGLE_FAN]
-    C --> E[Aro dorado exterior - GL_LINE_LOOP]
-    C --> F[Marcas horarias - GL_LINES - 60 marcas angulares]
-    C --> G[Manillas - GL_LINES - Horas / Minutos / Segundos]
-    D & E & F & G --> H[Motor de conversion angular - theta = pi/2 - theta_reloj]
-    H --> I[Renderizado final - Hora estatica 10:10:30]
-```
