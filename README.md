@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕐 Reloj Analógico Estático mediante OpenGL Clásico y Técnicas Básicas de Renderizado 2D
+# 🕐 Reloj Analógico Estático Mediante OpenGL Clásico y Técnicas Básicas de Renderizado 2D
 
 **Laboratorio No. 1 — Informática Gráfica y Visualización**  
 **Profesor:** Ing. Rogerio Orlando Beltrán Castro  
