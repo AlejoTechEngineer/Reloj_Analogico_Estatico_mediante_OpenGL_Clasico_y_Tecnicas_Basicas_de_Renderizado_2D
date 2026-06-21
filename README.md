@@ -1,8 +1,14 @@
+<div align="center">
+
 # 🕐 Reloj Analógico Estático mediante OpenGL Clásico y Técnicas Básicas de Renderizado 2D
 
 **Laboratorio No. 1 — Informática Gráfica y Visualización**  
 **Profesor:** Ing. Rogerio Orlando Beltrán Castro  
 **Fecha:** 10 de mayo de 2026
+
+</div>
+
+---
 
 ---
 
